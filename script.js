@@ -31,11 +31,81 @@ document.addEventListener('DOMContentLoaded', function() {
     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
     // Sample radio stations data
-    const stations = [
-        { id: 1, name: "Shaa FM", genre: "Youth", country: "Sri Lanka", url: "https://radio.lotustechnologieslk.net:2020/stream/shaafmgarden", logo: "https://www.shaafm.lk/images/listenlivelogo.jpg", favorite: false },
-        { id: 2, name: "BBC Radio 1", genre: "Pop", country: "UK", url: "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_one", logo: "https://cdn-radiotime-logos.tunein.com/s24928q.png", favorite: false },
-        // ... other stations as before ...
-    ];
+const stations = [
+  {
+    id: 1,
+    name: "Shaa FM",
+    genre: "Youth",
+    country: "Sri Lanka",
+    url: "https://radio.lotustechnologieslk.net:2020/stream/shaafmgarden",
+    logo: "https://www.shaafm.lk/images/listenlivelogo.jpg",
+    favorite: false
+  },
+  {
+    id: 2,
+    name: "Hiru FM",
+    genre: "Pop",
+    country: "Sri Lanka",
+    url: "http://85.114.132.70:8000/hirufm-48.aac",
+    logo: "https://www.hirufm.lk/images/logo.png",
+    favorite: false
+  },
+  {
+    id: 3,
+    name: "Sooriyan FM",
+    genre: "Tamil",
+    country: "Sri Lanka",
+    url: "https://stream.zeno.fm/27sa0ppcztzuv",
+    logo: "https://www.sooriyanfm.lk/assets/images/logo.png",
+    favorite: false
+  },
+  {
+    id: 4,
+    name: "Sun FM",
+    genre: "English",
+    country: "Sri Lanka",
+    url: "http://209.133.216.3:7125/;stream.mp3",
+    logo: "https://www.sunfm.lk/images/logo.png",
+    favorite: false
+  },
+  {
+    id: 5,
+    name: "Gold FM",
+    genre: "Oldies",
+    country: "Sri Lanka",
+    url: "http://66.29.204.30:8000/goldfm.aac",
+    logo: "https://www.goldfm.lk/images/logo.png",
+    favorite: false
+  },
+  {
+    id: 6,
+    name: "Ran FM",
+    genre: "Mixed",
+    country: "Sri Lanka",
+    url: "http://66.29.204.30:8000/ranfm.aac",
+    logo: "https://www.ranfm.lk/images/logo.png",
+    favorite: false
+  },
+  {
+    id: 7,
+    name: "Lakhanda Radio",
+    genre: "News/Talk",
+    country: "Sri Lanka",
+    url: "http://66.29.204.30:8000/lakhanda.aac",
+    logo: "https://lakhandaradio.lk/images/logo.png",
+    favorite: false
+  },
+  {
+    id: 8,
+    name: "Shakthi FM",
+    genre: "Bollywood",
+    country: "Sri Lanka",
+    url: "http://66.29.204.30:8000/shakthi.aac",
+    logo: "https://onlineradiofm.in/images/shakthi-fm.png",
+    favorite: false
+  }
+];
+
 
     function init() {
         renderStations();
