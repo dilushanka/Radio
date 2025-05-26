@@ -56,7 +56,7 @@ const stations = [
     genre: "Tamil",
     country: "Sri Lanka",
     url: "https://stream.zeno.fm/27sa0ppcztzuv",
-    logo: "https://www.sooriyanfm.lk/assets/images/logo.png",
+    logo: "./img/radio/radio-place.webp",
     favorite: false
   },
   {
@@ -65,7 +65,7 @@ const stations = [
     genre: "English",
     country: "Sri Lanka",
     url: "http://209.133.216.3:7125/;stream.mp3",
-    logo: "https://www.sunfm.lk/images/logo.png",
+    logo: "./img/radio/radio-place.webp",
     favorite: false
   },
   {
@@ -74,7 +74,7 @@ const stations = [
     genre: "Oldies",
     country: "Sri Lanka",
     url: "http://66.29.204.30:8000/goldfm.aac",
-    logo: "https://www.goldfm.lk/images/logo.png",
+    logo: "./img/radio/radio-place.webp",
     favorite: false
   },
   {
@@ -83,7 +83,7 @@ const stations = [
     genre: "Mixed",
     country: "Sri Lanka",
     url: "http://66.29.204.30:8000/ranfm.aac",
-    logo: "https://www.ranfm.lk/images/logo.png",
+    logo: "./img/radio/radio-place.webp",
     favorite: false
   },
   {
@@ -92,7 +92,7 @@ const stations = [
     genre: "News/Talk",
     country: "Sri Lanka",
     url: "http://66.29.204.30:8000/lakhanda.aac",
-    logo: "https://lakhandaradio.lk/images/logo.png",
+    logo: "./img/radio/radio-place.webp",
     favorite: false
   },
   {
@@ -101,7 +101,7 @@ const stations = [
     genre: "Bollywood",
     country: "Sri Lanka",
     url: "http://66.29.204.30:8000/shakthi.aac",
-    logo: "https://onlineradiofm.in/images/shakthi-fm.png",
+    logo: "./img/radio/radio-place.webp",
     favorite: false
   },
   {
