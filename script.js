@@ -97,10 +97,10 @@ const stations = [
   },
   {
     id: 8,
-    name: "Y FM",
+    name: "Shakthi FM",
     genre: "Bollywood",
     country: "Sri Lanka",
-    url: "data-playtrack="http://mbc.thestreamtech.com:7032/index.html",
+    url: "http://66.29.204.30:8000/shakthi.aac",
     logo: "https://onlineradiofm.in/images/shakthi-fm.png",
     favorite: false
   }
