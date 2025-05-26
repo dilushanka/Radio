@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Sample radio stations data
     const stations = [
-        { id: 1, name: "Shaa FM", genre: "Youth", country: "Sri Lanka", url: "https://radio.lotustechnologieslk.net:2020/stream/shaafmgarden", logo: "https://cdn-radiotime-logos.tunein.com/s24928q.png", favorite: false },
+        { id: 1, name: "Shaa FM", genre: "Youth", country: "Sri Lanka", url: "https://radio.lotustechnologieslk.net:2020/stream/shaafmgarden", logo: "https://www.shaafm.lk/images/listenlivelogo.jpg", favorite: false },
         { id: 2, name: "BBC Radio 1", genre: "Pop", country: "UK", url: "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_one", logo: "https://cdn-radiotime-logos.tunein.com/s24928q.png", favorite: false },
         // ... other stations as before ...
     ];
