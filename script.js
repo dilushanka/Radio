@@ -103,6 +103,15 @@ const stations = [
     url: "http://66.29.204.30:8000/shakthi.aac",
     logo: "https://onlineradiofm.in/images/shakthi-fm.png",
     favorite: false
+  },
+  {
+    id: 9,
+    name: "Y FM",
+    genre: "News/Talk",
+    country: "Sri Lanka",
+    url: "https://mbc.thestreamtech.com:7032/index.html",
+    logo: "https://lakhandaradio.lk/images/logo.png",
+    favorite: false
   }
 ];
 
