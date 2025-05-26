@@ -110,7 +110,7 @@ const stations = [
     genre: "News/Talk",
     country: "Sri Lanka",
     url: "https://mbc.thestreamtech.com:7032/index.html",
-    logo: "https://lakhandaradio.lk/images/logo.png",
+    logo: "./img/radio/y.png",
     favorite: false
   }
 ];
