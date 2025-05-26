@@ -46,7 +46,7 @@ const stations = [
     name: "Hiru FM",
     genre: "Pop",
     country: "Sri Lanka",
-    url: "http://85.114.132.70:8000/hirufm-48.aac",
+    url: "https://radio.lotustechnologieslk.net:2020/stream/hirufmgarden",
     logo: "https://www.hirufm.lk/images/logo.png",
     favorite: false
   },
@@ -97,10 +97,10 @@ const stations = [
   },
   {
     id: 8,
-    name: "Shakthi FM",
+    name: "Y FM",
     genre: "Bollywood",
     country: "Sri Lanka",
-    url: "http://66.29.204.30:8000/shakthi.aac",
+    url: "data-playtrack="http://mbc.thestreamtech.com:7032/index.html",
     logo: "https://onlineradiofm.in/images/shakthi-fm.png",
     favorite: false
   }
