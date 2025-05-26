@@ -38,7 +38,7 @@ const stations = [
     genre: "Youth",
     country: "Sri Lanka",
     url: "https://radio.lotustechnologieslk.net:2020/stream/shaafmgarden",
-    logo: "https://www.shaafm.lk/images/listenlivelogo.jpg",
+    logo: "./img/radio/shaa.png",
     favorite: false
   },
   {
@@ -47,7 +47,7 @@ const stations = [
     genre: "Pop",
     country: "Sri Lanka",
     url: "https://radio.lotustechnologieslk.net:2020/stream/hirufmgarden",
-    logo: "https://www.hirufm.lk/images/logo.png",
+    logo: "./img/radio/hiru.png",
     favorite: false
   },
   {
