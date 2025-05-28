@@ -703,3 +703,6 @@ body {
         display: none;
     }
 }
+.stations-grid .station-card .station-card-play{
+ margin-bottom:89px;
+}
